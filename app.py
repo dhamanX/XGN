@@ -103,9 +103,9 @@ if query:
         source_cards = ""
         for s in sources:
             source_cards += f"""
-            <div class="source-card">
+            <div class="source-card" onclick="window.open('{s['url']}', '_blank')" style="cursor:pointer;">
                 <div class="source-title">{s['title'][:50]}...</div>
-                <div class="source-url">{s['url'][:40]}...</div>
+                <div class="source-url" style="color:#555;">{s['url'][:40]}...</div>
             </div>"""
         st.markdown(f'<div class="source-grid">{source_cards}</div>', unsafe_allow_html=True)
 
