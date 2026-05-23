@@ -111,4 +111,5 @@ if query:
             </div>"""
         st.markdown(f'<div class="source-grid">{source_cards}</div>', unsafe_allow_html=True)
 
+st.markdown('<div style="text-align:center; margin-bottom:1rem;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdD3LUvuhcfDvNh_KY1V4jRDx-5XrVebgINoAgZHDGjw4rAcQ/viewform?usp=dialog" target="_blank" style="color:#555; font-size:11px; letter-spacing:0.15em;">JOIN EARLY ACCESS →</a></div>', unsafe_allow_html=True)
 st.markdown('<div class="footer">POWERED BY GRAVTIAN</div>', unsafe_allow_html=True)
